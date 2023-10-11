@@ -4,18 +4,18 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=SurgeX Kernel by madmax7896
+kernel.string=Uvite kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=munch
-device.name2=
-device.name3=
+device.name1=apollo
+device.name2=apolloin
+device.name3=apollon
 device.name4=
 device.name5=
-supported.versions=12.0-13.0
+supported.versions=12.0-14.0
 supported.patchlevels=
 '; } # end properties
 
@@ -28,8 +28,8 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## boot shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=1;
+block=/dev/block/by-name/boot;
+is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
