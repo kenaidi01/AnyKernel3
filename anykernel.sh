@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=SurgeX Kernel by madmax7896
+kernel.string=IMMEENSITY-X KERNEL
 do.devicecheck=1
 do.modules=0
 do.systemless=1
